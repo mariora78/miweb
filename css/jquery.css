@@ -1,0 +1,19 @@
+#cuadrado{
+    background: blue;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#btnleftup{
+    margin: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btnrightup{
+    margin: 100px;
+    position: relative;
+    cursor: pointer;
+
+}
