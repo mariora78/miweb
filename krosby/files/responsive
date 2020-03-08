@@ -1,0 +1,130 @@
+
+/*** 2.1.2 Tablet Small 740px */
+
+@media screen and (min-width: 46.25em) {
+  /*#top-splash{
+    background-size: 45% auto;
+  }*/
+  #starred{
+    height: 150px;
+  }
+   #starred .featured-img{
+ 
+  }
+  #tagline {
+    /*padding-bottom: 7.25em;*/
+  }
+
+
+  .project-info li{
+    font-size:1em;
+  }
+  #lets-work{
+    padding: 3.75em;
+  }
+  #project-heading img{
+    display: block;
+  }
+  #project-details ul li{
+    display: inline-block;
+    margin-right:5em;
+  }
+
+}
+/*** 2.1.3 Tablet Large 880px */
+
+@media screen and (min-width: 55em) {
+  /*#top-splash{
+    background-size: 55% ;
+  }*/
+  #starred{
+    height: 250px;
+  }
+   #starred .featured-img{
+ 
+  }
+  #lets-work{
+    padding: 4em 20%;
+  }
+
+}
+
+/*** 2.1.4 Desktop Small 955px */
+
+@media screen and (min-width:  59.6875em) {
+    /*#top-splash{
+    background-size: 65% ;
+  }*/
+ #starred{
+    height: 350px;
+  }
+ #starred .featured-img{
+  
+  }
+  
+  #project-deck header h5{
+    letter-spacing: 1px;
+  }
+  #project-txt p{
+    font-size:1.15em;
+  }
+
+}
+
+/*** 2.1.5 Desktop Medium 1100px */
+
+@media screen and (min-width: 68.75em) {
+  /*#top-splash{
+   background-size: 85% ;
+  }*/
+  #starred{
+    height: 400px;
+  }
+  #starred .featured-img{
+ 
+  }
+  #site-nav{
+    width: 320px;
+  }
+  #site-content.menu-on{
+    -ms-transform: translateX(-320px);
+        transform: translateX(-320px);
+    -webkit-transform: translateX(-320px);
+  }
+
+
+  #lets-work{
+    padding: 4em 30%;
+  }
+ 
+
+}
+
+/*** 2.1.6 Desktop Large 1240px */
+
+@media screen and (max-width: 77.5em) {
+  /*#top-splash{
+   background-size: 95% ;
+  }*/
+ #starred{
+    width: auto;
+    height: 400px;
+  }
+
+}
+
+/*** 2.1.7 Desktop xLarge 1403px */
+
+@media screen and (min-width: 87.6875em) {
+  /*#top-splash{
+   background-size: 100% ;
+  }*/
+  #lets-work{
+    padding: 4em 35%;
+  }
+ #starred{
+    height: 400px;
+  }
+
+}
+

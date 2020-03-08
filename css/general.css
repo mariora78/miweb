@@ -84,6 +84,7 @@ hr {
 #encabezado nav ul li.seccion_actual span { 
     height: 15px;
     color: #DFDB44;}
+
 #contenedor_menus {
     overflow: hidden; 
     display: block;
@@ -258,7 +259,7 @@ li {
  #menu_adicional a, #menu_adicional span { color: #C4C6C7;   padding: 2px 4px 2px 8px; display: block; float: left; }
  #menu_adicional a.seccion_actual,
  #menu_adicional a.seccion_activa,
- #menu_adicional a:hover { color: white; text-decoration: underline; }
+ #menu_adicional a:hover { color: #DFDB44; text-decoration: underline; }
  #menu_idiomas { float: right; margin-left: 10px; }
  #menu_idiomas.sin_menu_adicional { margin-right: 5px; margin-left: 7px; margin-bottom: 3px; }
  #menu_idiomas span { display: none;}

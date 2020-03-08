@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#btnleftup").click(function(){
+    $("#btnleft").click(function(){
         $("#cuadrado").animate({
             height: '-=150px', 
             left: '-=500px',
@@ -8,7 +8,7 @@ $(document).ready(function(){
             width: '-=150px'
         }, 1500);
     });
-    $("#btnrightup").click(function(){
+    $("#btnright").click(function(){
         $("#cuadrado").animate({
             height: '+=100px', 
             left: '+=500px',
